@@ -1,0 +1,180 @@
+
+.sidebarContainer {
+    width: 227px;
+    height: 100%;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+@media (min-width: 300px) and (max-width: 563px) {
+    .sidebarContainer {
+        width: 140px;
+        height: 100%;
+        position: fixed;
+        background-color: #ffffff;
+    }
+}
+
+.sidebarContainer h5 {
+	color: #f2f2f2;
+	font-weight: 700;
+}
+
+.sidebarContainer ul li {
+    position: relative;
+    
+    
+}
+
+
+/*LEFT NAVIGATION ICON*/
+.dcjq-icon {
+    height:17px;
+    width:17px;
+    display:inline-block;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+.active .dcjq-icon {
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+
+.nav-collapse.collapse {
+    display: inline;
+}
+
+ul.sidebar-menu , ul.sidebar-menu li ul.sub{
+    margin: -2px 0 0;
+    padding: 0;
+}
+
+ul.sidebar-menu {
+    margin-top: 75px;
+}
+
+#sidebar > ul > li > ul.sub {
+    display: none;
+}
+
+#sidebar > ul > li.active > ul.sub, #sidebar > ul > li > ul.sub > li > a {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+ul.sidebar-menu li{
+    /*line-height: 20px !important;*/
+    margin-bottom: 5px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
+
+ul.sidebar-menu li a{
+    color: #80828b;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 10px;
+     text-align: start; 
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+    background: #4ECDC4;
+    color: #fff;
+    display: block;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+ul.sidebar-menu li a i {
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
+    color: #fff;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #fff;
+}
+
+.navComponents{
+    font-weight: bolder;
+    
+    
+}
+
+.indexContainer{
+    background-color: grey;
+}
+
+#main-content {
+    margin-left: 210px;
+    
+}
+
+#main {
+    margin-left: 220px;
+    
+}
+@media (min-width: 330px) and (max-width: 563px) {
+    #main-content {
+       margin-left: 140px
+        
+    }
+}
+.wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+}
+.navCom{
+    margin-left: 20px
+    
+}
+
+  .active {
+    
+    color: white;
+   border-bottom: solid;
+   font-weight: bolder
+   
+   
+  }
